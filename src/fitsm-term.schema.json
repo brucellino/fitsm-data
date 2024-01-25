@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fitsm.eu/fitsm-term.schema.json",
+  "title": "Term",
+  "description": "Term in FitSM vocabulary",
+  "type": "object",
+  "properties": {
+    "title": {
+      "description": "Title of term",
+      "type": "string"
+    },
+    "name": {
+      "description": "Long name of the term",
+      "type": "string"
+    }
+  }
+}
